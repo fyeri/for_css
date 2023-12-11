@@ -233,7 +233,6 @@ body {
 
 /* メニューアイテムコンポーネント */
 .menu_list {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -244,7 +243,6 @@ body {
 }
 
 .menu_item {
-  width: 49%;
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
@@ -286,4 +284,17 @@ body {
 }
 .btn-disabled {
   background: rgba(0,0,0,0.3);
+}
+.menu_list_home {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_item_home {
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
 }
